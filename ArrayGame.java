@@ -5,6 +5,8 @@ public class U5_2_MatrizRandomTry {
 		Scanner sc = new Scanner(System.in);
 
 		String x = "";
+		System.out.println("Dime tu nombre: ");
+		String nombre = sc.nextLine();
 
 
 		System.out.println("Dime el rango (000-000): ");
@@ -108,6 +110,12 @@ public class U5_2_MatrizRandomTry {
 			System.out.println();
 		}
 		
+	}
+	public static void imprimirNombre (String nombre) {
+	
+	System.out.println("Felicidades " + nombre + "has ganado.");
+
+
 	}
 
 
