@@ -5,6 +5,8 @@ public class U5_2_MatrizRandomTry {
 		Scanner sc = new Scanner(System.in);
 
 		String x = "";
+
+
 		System.out.println("Dime el rango (000-000): ");
 		x = sc.nextLine();
 		int n;
@@ -25,7 +27,7 @@ public class U5_2_MatrizRandomTry {
 		n = sc.nextInt();
 		
 		if (encontrarNumero(matriz,n)) {
-			System.out.println("Pues si, si que esta dins del vector, eres un maquineta.");
+			System.out.println("Pues si, si que esta dins del vector, eres un maquineta."); 
 		} else {
 			System.out.println("Tolai, no esta.");
 		}
@@ -107,5 +109,8 @@ public class U5_2_MatrizRandomTry {
 		}
 		
 	}
+
+
+
 
 }
