@@ -9,5 +9,5 @@
 
 
 
-> [!WARNING]
+> [!NOTE]
 > Little game I did while I was learnign the basics of java.
